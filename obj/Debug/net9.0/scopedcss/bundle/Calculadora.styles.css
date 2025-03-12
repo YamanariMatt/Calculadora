@@ -1,0 +1,56 @@
+/* _content/Calculadora/Views/Shared/_Layout.cshtml.rz.scp.css */
+body[b-hz8u7nauxx] {
+  font-family: Arial, sans-serif;
+  background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-papel-desenhado-a-mao-com-revestimento-azul_23-2151105438.jpg?t=st=1737660298~exp=1737663898~hmac=2aa6c53b2da4b7bc5cf40dd92cd0e4ebea55bca48645baac4d4e7b0457f0aee2&w=996);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.calculator[b-hz8u7nauxx] {
+  width: 300px;
+  background-color: #121111;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.display[b-hz8u7nauxx] {
+  background-color: #1f1f1f;
+  color: #6a6b6b;
+  font-size: 2rem;
+  text-align: right;
+  padding: 20px;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+.buttons[b-hz8u7nauxx] {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  padding: 10px;
+}
+
+button[b-hz8u7nauxx] {
+  font-size: 1.5rem;
+  padding: 20px;
+  background-color: #464545;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover[b-hz8u7nauxx] {
+  background-color: #4a4949;
+}
+
+.zero[b-hz8u7nauxx] {
+  grid-column: span 2;
+}
